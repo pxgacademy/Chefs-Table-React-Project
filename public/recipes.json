@@ -1,0 +1,413 @@
+[
+  {
+    "id": 1,
+    "cover_image": "https://i.ibb.co.com/c27WRPk/Mixed-berries-smoothie-bowl.jpg",
+    "title": "Mixed Berries Smoothie Bowl",
+    "description": "A vibrant and nutritious smoothie bowl packed with mixed berries, perfect for a refreshing breakfast or post-workout snack.",
+    "ingredients": [
+      "1/2 cup frozen strawberries",
+      "1/2 cup frozen blueberries",
+      "1/4 cup raspberries",
+      "1 banana",
+      "1/2 cup almond milk",
+      "1 tablespoon chia seeds",
+      "Toppings: granola, fresh berries, coconut flakes"
+    ],
+    "author_name": "Sarah Green",
+    "author_image": "https://i.ibb.co.com/R2gb2gB/1.jpg",
+    "posted_date": "2024-10-01",
+    "cooking_time": "10 minutes",
+    "calories": 250,
+    "hashtags": ["#SmoothieBowl", "#HealthyEating", "#Breakfast"]
+  },
+  {
+    "id": 2,
+    "cover_image": "https://i.ibb.co.com/1X4Jkj0/Healthy-leaves-mix-salad.jpg",
+    "title": "Healthy Leaves Mix Salad",
+    "description": "A light and refreshing salad made with a mix of greens, perfect for a nutritious lunch or side dish.",
+    "ingredients": [
+      "2 cups baby spinach",
+      "1 cup arugula",
+      "1/2 cup mixed lettuce",
+      "1/4 cup cherry tomatoes",
+      "1/4 cup cucumber slices",
+      "1/4 cup walnuts",
+      "Olive oil and balsamic vinegar for dressing"
+    ],
+    "author_name": "Emma Taylor",
+    "author_image": "https://i.ibb.co.com/0hfzZn1/2.jpg",
+    "posted_date": "2024-09-18",
+    "cooking_time": "5 minutes",
+    "calories": 150,
+    "hashtags": ["#Salad", "#HealthyEating", "#QuickRecipe"]
+  },
+  {
+    "id": 3,
+    "cover_image": "https://i.ibb.co.com/HFp3HmR/Roast-chicken-legs-with-pumpkin.jpg",
+    "title": "Roast Chicken with Pumpkin in Cast Iron Skillet",
+    "description": "Succulent roasted chicken paired with caramelized pumpkin, seasoned to perfection and cooked in a cast iron skillet.",
+    "ingredients": [
+      "4 chicken legs",
+      "2 cups pumpkin, cubed",
+      "1 tablespoon olive oil",
+      "2 garlic cloves, minced",
+      "1 teaspoon thyme",
+      "Salt and pepper to taste"
+    ],
+    "author_name": "John Miller",
+    "author_image": "https://i.ibb.co.com/tM4QmQx/3.jpg",
+    "posted_date": "2024-10-07",
+    "cooking_time": "1 hour",
+    "calories": 500,
+    "hashtags": ["#RoastChicken", "#ComfortFood", "#FallRecipes"]
+  },
+  {
+    "id": 4,
+    "cover_image": "https://i.ibb.co.com/7KCNcFJ/Vegan-Creamy-Roasted-Pumpkin-Soup.jpg",
+    "title": "Vegan Creamy Roasted Pumpkin Soup",
+    "description": "A comforting and creamy vegan pumpkin soup with a hint of roasted flavors, perfect for autumn evenings.",
+    "ingredients": [
+      "4 cups pumpkin, roasted",
+      "1 onion, diced",
+      "2 garlic cloves, minced",
+      "2 cups vegetable broth",
+      "1/2 cup coconut milk",
+      "Salt and pepper to taste",
+      "Pumpkin seeds for garnish"
+    ],
+    "author_name": "Sophia Brown",
+    "author_image": "https://i.ibb.co.com/k1X2w6d/4.jpg",
+    "posted_date": "2024-10-12",
+    "cooking_time": "40 minutes",
+    "calories": 300,
+    "hashtags": ["#Vegan", "#PumpkinSoup", "#HealthyEating"]
+  },
+  {
+    "id": 5,
+    "cover_image": "https://i.ibb.co.com/sCdY64C/Artisan-Hot-Dogs-in-Brioche-Rolls-with-pickles-onion-and-relishes.jpg",
+    "title": "Artisan Hot Dogs in Brioche Rolls with Pickles, Onion and Relishes",
+    "description": "Gourmet hot dogs served in soft brioche rolls, topped with pickles, caramelized onions, and a variety of relishes.",
+    "ingredients": [
+      "4 brioche rolls",
+      "4 artisan hot dogs",
+      "1/2 cup pickles, sliced",
+      "1/2 cup caramelized onions",
+      "Mustard, ketchup, and relish for topping"
+    ],
+    "author_name": "James Wilson",
+    "author_image": "https://i.ibb.co.com/ySBfCtk/5.jpg",
+    "posted_date": "2024-09-30",
+    "cooking_time": "25 minutes",
+    "calories": 600,
+    "hashtags": ["#HotDogs", "#StreetFood", "#Gourmet"]
+  },
+  {
+    "id": 6,
+    "cover_image": "https://i.ibb.co.com/fxGMfYC/Homemade-pasta.jpg",
+    "title": "Homemade Pasta",
+    "description": "Learn how to make fresh homemade pasta from scratch, a perfect base for any Italian dish.",
+    "ingredients": [
+      "2 cups all-purpose flour",
+      "3 large eggs",
+      "1 tablespoon olive oil",
+      "Pinch of salt"
+    ],
+    "author_name": "Maria Rossi",
+    "author_image": "https://i.ibb.co.com/jRhc85S/6.jpg",
+    "posted_date": "2024-09-22",
+    "cooking_time": "1 hour",
+    "calories": 400,
+    "hashtags": ["#Pasta", "#ItalianCuisine", "#Homemade"]
+  },
+  {
+    "id": 7,
+    "cover_image": "https://i.ibb.co.com/tmvQX6r/Fresh-pasta-with-tomatoes-and-scallop.jpg",
+    "title": "Fresh Pasta with Tomatoes and Scallop",
+    "description": "Delicious fresh pasta served with sautéed scallops and a light tomato sauce for an elegant meal.",
+    "ingredients": [
+      "200g fresh pasta",
+      "6 scallops",
+      "1 cup cherry tomatoes, halved",
+      "2 garlic cloves, minced",
+      "1 tablespoon olive oil",
+      "Fresh basil for garnish"
+    ],
+    "author_name": "Alessandro Moretti",
+    "author_image": "https://i.ibb.co.com/XbQ5ccW/7.jpg",
+    "posted_date": "2024-09-28",
+    "cooking_time": "30 minutes",
+    "calories": 450,
+    "hashtags": ["#Seafood", "#Pasta", "#Gourmet"]
+  },
+  {
+    "id": 8,
+    "cover_image": "https://i.ibb.co.com/CBcyYgK/Pumpkin-soup.jpg",
+    "title": "Pumpkin Soup",
+    "description": "A rich and creamy pumpkin soup made with simple ingredients, perfect for cozy nights.",
+    "ingredients": [
+      "4 cups pumpkin, cubed",
+      "1 onion, diced",
+      "2 garlic cloves, minced",
+      "2 cups vegetable broth",
+      "1/2 cup cream",
+      "Salt and pepper to taste",
+      "Croutons for garnish"
+    ],
+    "author_name": "Olivia White",
+    "author_image": "https://i.ibb.co.com/gPXyWjL/8.jpg",
+    "posted_date": "2024-10-05",
+    "cooking_time": "40 minutes",
+    "calories": 320,
+    "hashtags": ["#Soup", "#Pumpkin", "#ComfortFood"]
+  },
+  {
+    "id": 9,
+    "cover_image": "https://i.ibb.co.com/P1XxM85/Classic-Tagliatelle-with-Sauce-Bolognese.jpg",
+    "title": "Classic Tagliatelle with Sauce Bolognese",
+    "description": "A classic Italian dish featuring tagliatelle pasta with a rich and hearty Bolognese sauce.",
+    "ingredients": [
+      "200g tagliatelle",
+      "1/2 pound ground beef",
+      "1/2 cup tomato sauce",
+      "1 onion, diced",
+      "2 garlic cloves, minced",
+      "1 tablespoon olive oil",
+      "Parmesan cheese for garnish"
+    ],
+    "author_name": "Luca Verdi",
+    "author_image": "https://i.ibb.co.com/L0VKH7Q/9.jpg",
+    "posted_date": "2024-09-25",
+    "cooking_time": "45 minutes",
+    "calories": 550,
+    "hashtags": ["#Bolognese", "#Pasta", "#ItalianCuisine"]
+  },
+  {
+    "id": 10,
+    "cover_image": "https://i.ibb.co.com/Hg5D0L4/Vegan-Gluten-Free-Creamy-Spinach-Pasta.jpg",
+    "title": "Vegan Gluten-Free Creamy Spinach Pasta",
+    "description": "A creamy and flavorful vegan pasta made with spinach and gluten-free pasta, perfect for a healthy yet indulgent meal.",
+    "ingredients": [
+      "200g gluten-free pasta",
+      "2 cups fresh spinach",
+      "1/2 cup cashew cream",
+      "2 garlic cloves, minced",
+      "1 tablespoon olive oil",
+      "1 tablespoon nutritional yeast",
+      "Salt and pepper to taste"
+    ],
+    "author_name": "Ella Carter",
+    "author_image": "https://i.ibb.co.com/dbRwNRw/10.jpg",
+    "posted_date": "2024-10-10",
+    "cooking_time": "25 minutes",
+    "calories": 350,
+    "hashtags": ["#Vegan", "#GlutenFree", "#HealthyEating"]
+  },
+
+  {
+    "id": 11,
+    "cover_image": "https://i.ibb.co.com/XXKVwSJ/Green-peas-cream-soup.jpg",
+    "title": "Green Peas Cream Soup",
+    "description": "A smooth and creamy green peas soup, perfect for a light and refreshing meal, rich in flavor and nutrients.",
+    "ingredients": [
+      "2 cups green peas, fresh or frozen",
+      "1 onion, diced",
+      "2 garlic cloves, minced",
+      "2 cups vegetable broth",
+      "1/2 cup cream",
+      "Salt and pepper to taste",
+      "Mint leaves for garnish"
+    ],
+    "author_name": "Alice Moore",
+    "author_image": "https://i.ibb.co.com/QDNv70v/11.jpg",
+    "posted_date": "2024-10-08",
+    "cooking_time": "30 minutes",
+    "calories": 280,
+    "hashtags": ["#GreenPeas", "#Soup", "#Healthy"]
+  },
+  {
+    "id": 12,
+    "cover_image": "https://i.ibb.co.com/HC82BF6/Avocado-toast-with-eggs-and-roasted-tomatoes.jpg",
+    "title": "Avocado Toast with Eggs and Roasted Tomatoes",
+    "description": "A delicious and nutritious breakfast featuring creamy avocado, perfectly poached eggs, and roasted tomatoes on crispy toast.",
+    "ingredients": [
+      "2 slices whole grain bread",
+      "1 avocado, mashed",
+      "2 eggs, poached",
+      "1/2 cup cherry tomatoes, roasted",
+      "Salt and pepper to taste",
+      "Red pepper flakes for garnish"
+    ],
+    "author_name": "Lucas White",
+    "author_image": "https://i.ibb.co.com/dM0ySmQ/12.jpg",
+    "posted_date": "2024-10-11",
+    "cooking_time": "20 minutes",
+    "calories": 350,
+    "hashtags": ["#AvocadoToast", "#Breakfast", "#HealthyEating"]
+  },
+  {
+    "id": 13,
+    "cover_image": "https://i.ibb.co.com/yfLqSNb/Asian-cuisine-served.jpg",
+    "title": "Asian Cuisine Served",
+    "description": "A vibrant plate of traditional Asian cuisine, offering a mix of bold flavors and fresh ingredients for an authentic experience.",
+    "ingredients": [
+      "1 cup jasmine rice",
+      "200g grilled chicken or tofu",
+      "1/2 cup sautéed vegetables",
+      "Soy sauce for seasoning",
+      "Sesame seeds for garnish",
+      "Fresh cilantro"
+    ],
+    "author_name": "Kim Lee",
+    "author_image": "https://i.ibb.co.com/xYwYmWw/13.jpg",
+    "posted_date": "2024-09-20",
+    "cooking_time": "35 minutes",
+    "calories": 400,
+    "hashtags": ["#AsianCuisine", "#HealthyEating", "#Flavorful"]
+  },
+  {
+    "id": 14,
+    "cover_image": "https://i.ibb.co.com/bHrhrHP/Pan-Fried-Asparagus.jpg",
+    "title": "Pan Fried Asparagus",
+    "description": "A simple yet flavorful dish featuring crisp, pan-fried asparagus seasoned with olive oil and garlic.",
+    "ingredients": [
+      "1 bunch asparagus",
+      "1 tablespoon olive oil",
+      "2 garlic cloves, minced",
+      "Salt and pepper to taste",
+      "Lemon wedges for serving"
+    ],
+    "author_name": "Emma Williams",
+    "author_image": "https://i.ibb.co.com/qmBfR5s/14.jpg",
+    "posted_date": "2024-09-15",
+    "cooking_time": "15 minutes",
+    "calories": 100,
+    "hashtags": ["#Asparagus", "#Vegetarian", "#HealthySideDish"]
+  },
+  {
+    "id": 15,
+    "cover_image": "https://i.ibb.co.com/487xNff/Quiche-Lorraine-savory-tart-vegan-with-raw-vegetables.jpg",
+    "title": "Vegan Quiche Lorraine Savory Tart with Raw Vegetables",
+    "description": "A delicious vegan twist on the classic Quiche Lorraine, made with a flaky crust and filled with fresh raw vegetables.",
+    "ingredients": [
+      "1 vegan pastry crust",
+      "1 cup almond milk",
+      "1/2 cup chickpea flour",
+      "1/2 onion, diced",
+      "1/2 cup spinach",
+      "1/2 cup cherry tomatoes, halved",
+      "Salt and pepper to taste"
+    ],
+    "author_name": "Lily Thompson",
+    "author_image": "https://i.ibb.co.com/1r66RD9/15.jpg",
+    "posted_date": "2024-10-04",
+    "cooking_time": "45 minutes",
+    "calories": 320,
+    "hashtags": ["#Vegan", "#Quiche", "#HealthyTart"]
+  },
+  {
+    "id": 16,
+    "cover_image": "https://i.ibb.co.com/t42NSYw/Crispy-chillie-sprinkled-chicken-wings.jpg",
+    "title": "Crispy Chili Sprinkled Chicken Wings",
+    "description": "Crispy, golden-brown chicken wings, sprinkled with spicy chili flakes for a perfect game day snack.",
+    "ingredients": [
+      "12 chicken wings",
+      "2 tablespoons olive oil",
+      "1 tablespoon chili flakes",
+      "1 tablespoon garlic powder",
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
+    ],
+    "author_name": "Tom Edwards",
+    "author_image": "https://i.ibb.co.com/hCzd8my/16.jpg",
+    "posted_date": "2024-09-27",
+    "cooking_time": "40 minutes",
+    "calories": 450,
+    "hashtags": ["#ChickenWings", "#Spicy", "#GameDayFood"]
+  },
+  {
+    "id": 17,
+    "cover_image": "https://i.ibb.co.com/VTgDmn9/Meatballs-in-sour-tomato-sauce-with-grated-parmesan-cheese.jpg",
+    "title": "Meatballs in Sour Tomato Sauce with Grated Parmesan Cheese",
+    "description": "Juicy meatballs simmered in a tangy tomato sauce, topped with freshly grated Parmesan cheese.",
+    "ingredients": [
+      "1 pound ground beef",
+      "1/2 cup breadcrumbs",
+      "1 egg",
+      "1 onion, diced",
+      "2 cups tomato sauce",
+      "1/2 cup Parmesan cheese, grated",
+      "Salt and pepper to taste"
+    ],
+    "author_name": "Giovanni Russo",
+    "author_image": "https://i.ibb.co.com/MZnH1SQ/17.jpg",
+    "posted_date": "2024-09-29",
+    "cooking_time": "50 minutes",
+    "calories": 600,
+    "hashtags": ["#Meatballs", "#ComfortFood", "#ItalianCuisine"]
+  },
+  {
+    "id": 18,
+    "cover_image": "https://i.ibb.co.com/ZSh4gPd/Delicious-vegan-tacos.jpg",
+    "title": "Delicious Vegan Tacos",
+    "description": "Tasty and filling vegan tacos filled with spiced black beans, fresh veggies, and avocado, perfect for a quick and healthy meal.",
+    "ingredients": [
+      "8 small tortillas",
+      "1 can black beans, drained",
+      "1 avocado, sliced",
+      "1/2 cup corn kernels",
+      "1/4 cup red onion, diced",
+      "Cilantro for garnish",
+      "Lime wedges for serving"
+    ],
+    "author_name": "Anna Martinez",
+    "author_image": "https://i.ibb.co.com/GFMjbFK/18.jpg",
+    "posted_date": "2024-09-18",
+    "cooking_time": "25 minutes",
+    "calories": 350,
+    "hashtags": ["#Vegan", "#Tacos", "#MexicanCuisine"]
+  },
+  {
+    "id": 19,
+    "cover_image": "https://i.ibb.co.com/8ztwV9f/roasted-salmon-with-wild-rice-and-vegetables.jpg",
+    "title": "Roasted Salmon with Wild Rice and Vegetables",
+    "description": "Perfectly roasted salmon served with wild rice and a medley of seasonal vegetables for a healthy and balanced meal.",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 cup wild rice, cooked",
+      "1 zucchini, sliced",
+      "1 red bell pepper, diced",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste",
+      "Fresh dill for garnish"
+    ],
+    "author_name": "Oliver Johnson",
+    "author_image": "https://i.ibb.co.com/pW1h40P/19.jpg",
+    "posted_date": "2024-09-14",
+    "cooking_time": "35 minutes",
+    "calories": 500,
+    "hashtags": ["#Salmon", "#Healthy", "#WildRice"]
+  },
+
+  {
+    "id": 20,
+    "cover_image": "https://i.ibb.co.com/SdTbnpV/Pan-Fried-Asparagus-With-Fried-Egg-and-Panko-Gremolata.jpg",
+    "title": "Pan Fried Asparagus with Fried Egg and Panko Gremolata",
+    "description": "A delicious and healthy dish combining crispy pan-fried asparagus, a perfectly fried egg, and a crunchy panko gremolata topping for extra flavor.",
+    "ingredients": [
+      "1 bunch asparagus",
+      "2 eggs",
+      "1/4 cup panko breadcrumbs",
+      "1 tablespoon olive oil",
+      "1 garlic clove, minced",
+      "1 tablespoon lemon zest",
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
+    ],
+    "author_name": "Grace Miller",
+    "author_image": "https://i.ibb.co.com/3f802V1/20.jpg",
+    "posted_date": "2024-10-12",
+    "cooking_time": "20 minutes",
+    "calories": 280,
+    "hashtags": ["#Asparagus", "#Gremolata", "#HealthyEating"]
+  }
+]
