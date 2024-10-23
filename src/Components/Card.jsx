@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { FaRegClock, FaGripfire } from "react-icons/fa";
 
-const Card = ({ card }) => {
+const Card = ({ card, handleWantToCook }) => {
   const {
     cover_image,
     title,
@@ -14,7 +14,7 @@ const Card = ({ card }) => {
     calories,
     hashtags,
   } = card;
-  console.log(card);
+
   return (
     <div className="border p-4 border-zinc-500 rounded-xl flex flex-col justify-between">
       <div>
@@ -41,7 +41,11 @@ const Card = ({ card }) => {
         <div className="flex gap-10 my-3">
           <div className="flex items-center gap-2">
             <FaRegClock />
-            <span>{cooking_time}</span>
+            <span>
+              {cooking_time >= 60
+                ? `${cooking_time / 60} Hour`
+                : cooking_time + " Minutes"}
+            </span>
           </div>
 
           <div className="flex items-center gap-2">
@@ -49,10 +53,19 @@ const Card = ({ card }) => {
             <span>{calories} Calories</span>
           </div>
         </div>
+
+        <p className="space-x-2 mb-4">
+          {hashtags.map((tag, idx) => (
+            <span key={idx}>{tag}</span>
+          ))}
+        </p>
       </div>
 
-      <button className="py-2 px-5 border font-bold rounded-full hover:bg-green-500 hover:border-green-500 hover:text-zinc-800">
-        Want to Coke
+      <button
+        onClick={() => handleWantToCook(card)}
+        className="py-2 px-5 border font-bold rounded-full hover:bg-green-500 hover:border-green-500 hover:text-zinc-800"
+      >
+        Want to Cook
       </button>
     </div>
   );
@@ -60,6 +73,7 @@ const Card = ({ card }) => {
 
 Card.propTypes = {
   card: PropTypes.object.isRequired,
+  handleWantToCook: PropTypes.func.isRequired,
 };
 
 export default Card;

@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
+import PropTypes from "prop-types";
 
-const Cards = () => {
+const Cards = ({ handleWantToCook }) => {
   const [recipesAPI, setRecipesAPI] = useState([]);
 
   useEffect(() => {
@@ -11,13 +12,16 @@ const Cards = () => {
   }, []);
 
   return (
-    <section className="lg:grid grid-cols-2 gap-5 w-full md:w-1/2 lg:w-2/3">
+    <section className="space-y-4 lg:space-y-0 lg:grid grid-cols-2 gap-5 w-full md:w-1/2 lg:w-2/3">
       {recipesAPI.map((card) => (
-        <Card key={card.id} card={card} />
+        <Card key={card.id} card={card} handleWantToCook={handleWantToCook} />
       ))}
     </section>
   );
 };
 
-export default Cards;
+Cards.propTypes = {
+  handleWantToCook: PropTypes.func.isRequired,
+};
 
+export default Cards;
